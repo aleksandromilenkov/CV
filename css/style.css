@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(196, 221, 221);
+    
+}
+
+
+
+
+header{
+    background-color: rgb(9, 0, 128);
+    color:white;
+    min-height: 350px;
+    text-align: center;
+    position: relative;
+}
+
+header i {
+    margin-right: 5px;
+}
+header ul{
+    list-style: none;;
+}
+
+header ul li a{
+    text-decoration: none;
+    color:rgb(255, 207, 118)
+}
+.info{
+    float:left;
+    background-color: rgb(79, 113, 158);
+    padding:20px;
+    width: 40%;
+    text-align: left;
+    margin-bottom: 20px;
+    min-height: 220px;
+}
+
+.contact{
+    float:right;
+    background-color:rgb(79, 113, 158);
+    padding:15px;
+    width: 40%;
+    text-align: left;
+    min-height: 220px;
+}
+
+.contact::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.info::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img{
+    position:absolute;
+    z-index: 1000;
+    top:100px;
+    left:38%;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    border:10px solid rgb(241, 197, 241);
+}
+
+.education{
+    width: 45%;
+    float:left;
+    padding:20px;
+    background-color: white;
+    color:black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.education h3{
+    width: 100px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+
+.fax,.everest,.java{
+    width:100%;
+}
+
+
+
+.education .vreme{
+    width:30%;
+    float:left;
+    margin-right: 5%;
+}
+
+
+
+.education .skolo{
+    width:60%;
+    float:right;
+    margin-bottom: 80px;
+}
+
+.education .everest .vreme{
+    margin-top: 145px;
+}
+
+.education .java .vreme{
+    margin-top: 118px;
+}
+
+.education .naslov{
+    font-weight: bold;
+}
+
+.exp{
+    width:48%;
+    float:right;
+    padding:20px;
+    background-color: white;
+    color:black;
+    margin: 30px;
+    margin-left: 0px!important;
+    padding:20px;
+    padding-bottom:0px;
+}
+
+.exp h3{
+    max-width: 100px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.astorija, .papaGinos, .redJacket{
+    width:100%;
+}
+
+.exp .vreme{
+    width:30%;
+    float:left;
+    margin-right: 5%;
+}
+
+.exp .rabota{
+    width:60%;
+    float:right;
+    margin-bottom: 32px;
+    text-align: right;
+
+}
+
+.exp .papaGinos .vreme{
+    margin-top: 140px;
+}
+
+.exp .redJacket .vreme{
+    margin-top: 120px;
+}
+
+.exp .naslov{
+    font-weight: bold;
+}
+
+.programmingSkills{
+    clear: both;
+    float:left;
+    width:45%;
+    background-color: white;
+    color:black;
+    padding:20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.programmingSkills ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.interpersonalSkills{
+    float:right;
+    width:48%;
+    background-color: white;
+    color:black;
+    padding:20px;
+    margin-top: 10px;
+    margin-right: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.interpersonalSkills ul{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.wrapper{
+    padding-bottom: 20px;
+}
+
